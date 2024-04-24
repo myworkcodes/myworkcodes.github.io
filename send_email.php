@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($to, $subject, $message, $headers);
 
     // Redirect user to a thank you page
-    header("Location: lodingpage.html");
+    header("Location: loadingpage.html");
     exit();
 }
 ?>
